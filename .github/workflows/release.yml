@@ -16,7 +16,6 @@ jobs:
           fetch-depth: 0
           persist-credentials: true
           token: ${{ secrets.GITHUB_TOKEN }}
-
       - name: Generate token
         id: generate_token
         uses: actions/create-github-app-token@v1
